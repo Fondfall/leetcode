@@ -14,7 +14,7 @@ i从0到len-1，j从len-1到i+1
 
  */
 
-class Solution {
+public class TwoSum_1_my {
     public int[] twoSum(int[] nums, int target) {
         /*
         int index = nums.length - 1;

@@ -9,7 +9,7 @@
  * 返回击败全部 n 个对手需要训练的 最少 小时数目。
  */
 
-class Solution {
+public class MinNumberOfHours_2383 {
     public int minNumberOfHours(int initialEnergy, int initialExperience, int[] energy, int[] experience) {
         int length = energy.length;
         int hours = 0;
@@ -33,7 +33,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        MinNumberOfHours_2383 solution = new MinNumberOfHours_2383();
         int i = solution.minNumberOfHours(5, 3, new int[]{1, 4, 3, 2}, new int[]{2, 6, 3, 1});
         System.out.println(i);
 

@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 1.
  * 给定一个整数数组 nums和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那两个整数，并返回它们的数组下标。
@@ -6,7 +10,7 @@
  * 
  * 利用hash表的特性
  */
-class Solution {
+public class TwoSum_1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
@@ -21,7 +25,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        TwoSum_1 solution = new TwoSum_1();
         int[] ints = solution.twoSum(new int[]{2, 7, 11, 15, 9}, 9);
         System.out.println(Arrays.toString(ints));
     }

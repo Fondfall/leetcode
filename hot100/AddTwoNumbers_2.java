@@ -60,7 +60,7 @@ class ListNode {
  *3.考虑进位的问题
  * 代码如下
  */
-class Solution {
+public class AddTwoNumbers_2 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode();
         ListNode res = head;

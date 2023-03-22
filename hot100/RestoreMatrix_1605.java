@@ -14,7 +14,7 @@ import java.util.Arrays;
  * (它只是一个特殊解)
  */
 
-class Solution {
+public class RestoreMatrix_1605 {
     public static int[][] restoreMatrix(int[] rowSum, int[] colSum) {
         int rows = rowSum.length;
         int cols = colSum.length;
